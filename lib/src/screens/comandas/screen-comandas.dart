@@ -8,6 +8,12 @@ class Comandas extends StatefulWidget {
 class _ComandasState extends State<Comandas> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        title: Text("Mesa"),
+        centerTitle: true,
+      ),
+    );
   }
 }

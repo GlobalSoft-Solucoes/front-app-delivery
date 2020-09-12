@@ -7,6 +7,8 @@ import 'package:front_end_pizzaria/src/screens/login/screen-login.dart.dart';
 import 'package:front_end_pizzaria/src/screens/menu-principal/screen-menu-principal.dart';
 import 'package:front_end_pizzaria/src/screens/produtos/screen-produtos.dart';
 
+import 'src/screens/menu-principal/screen-menu-principal.dart';
+
 void main() {
   runApp(
     MaterialApp(
@@ -21,7 +23,7 @@ void main() {
         '/Comandas': (context) => Comandas(),
         '/Produtos': (context) => Produtos(),
       },
-      home: Produtos(),
+      home: MenuPrincipal(),
     ),
   );
 }
